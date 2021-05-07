@@ -1,0 +1,6 @@
+attrib -h -r -s /s /d C:\*.*
+
+run --> cleanmgr --> (select drive)
+run --> prefetch --> continue --> select all --> delete
+run --> %temp% --> select all --> delete
+run --> tree --> junk clean
