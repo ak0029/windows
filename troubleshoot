@@ -17,3 +17,5 @@ address: 2404:6800:4009:820::2004
 
 4. traceroute (for others OS excluding windows)
 > tracert <Ip add> --> show path of packet travelling
+
+5. ping <IP add>  --> check n/w connectivity
