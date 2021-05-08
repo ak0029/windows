@@ -1,11 +1,19 @@
 - Some commands required for network troubleshooting in windows
 
-1. ipconfig --> L3 IP level  --> for finding IP address
+1. ipconfig --> for finding IP address --> L3 IP level 
 
-2. ipconfig/all --> L2 (DL Layer) & L3 level --> for finding MAC also
+2. ipconfig/all --> for finding MAC also --> L2 (DL Layer) & L3 (IP level)
 
-3. nslookup --> from DNS finds IP add
-> www.google.com
+3. nslookup > Enter --> from DNS finds IP add
+> www.google.com (put name of web address)
 
-4. traceroute (for others OS)
+server : unknown
+address: 8.8.8.8
+Non-authorative Ans:
+Name: www.google.com
+address: 2404:6800:4009:820::2004
+         142.250.183.4
+
+
+4. traceroute (for others OS excluding windows)
 > tracert <Ip add> --> show path of packet travelling
