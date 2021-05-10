@@ -15,7 +15,7 @@ address: 2404:6800:4009:820::2004
          142.250.183.4
 
 
-4. traceroute (for others OS excluding windows)
+4. tracert OR traceroute(for Non-windows Environment)
 
 > tracert <IP/Name> --> show path of packet travelling
 > tracert -d <IP/Name> --> Stops attempts to resolve the IP addresses of intermediate routers to their names 2 speed up process
