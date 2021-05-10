@@ -16,6 +16,12 @@ address: 2404:6800:4009:820::2004
 
 
 4. traceroute (for others OS excluding windows)
-> tracert <Ip add> --> show path of packet travelling
+
+> tracert <IP/Name> --> show path of packet travelling
+> tracert -d <IP/Name> --> Stops attempts to resolve the IP addresses of intermediate routers to their names 2 speed up process
+> tracert -h <No.of hops> <IP/Name> --> defines the maximum number of hops in the path to search for the target (destination). The Default = 30 hops
+> tracert -w <timeout> <IP/Name> --> Specifies the amount of time in milliseconds to wait for the ICMP time Exceeded or echo Reply message corresponding to a given 
+                       echo Request message to be received. If not received within the time-out, an asterisk (*) is displayed. The default time-out is 4000 (4 seconds).
+>
 
 5. ping <IP add>  --> check n/w connectivity
