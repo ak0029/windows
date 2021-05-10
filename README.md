@@ -1,2 +1,2 @@
 # windows
-Windows cmd's
+Windows cmd's.
