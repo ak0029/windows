@@ -1,3 +1,4 @@
+// multiple IP ping
 
 <?php	
 $iplist = ["192.168.1.3","8.8.8.8"];
