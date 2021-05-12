@@ -42,4 +42,6 @@ foreach($results as $item =>$k){
 echo "</table>";
 echo "</font>";
 echo header("refresh: 4");// update result after 4sec
+// change apache port from 80 to 81 on server
+// make changes on ur router also for observing from anywhere NAT --> port redirection
 ?>
