@@ -1,10 +1,10 @@
 <?php 
 $iplist = array
 (	// use 2D array for ip & name
-	array("117.222.37.242", "Pandharpur"),
-	array("192.168.1.10", "Home"),
-	array("3.3.4.4", "Unknown"),
-	array("8.8.8.8", "Google")
+	array("13.227.166.56", "Coursera"),
+	array("192.168.1.10", "Test"),
+	array("104.16.65.85", "Udemy"),
+	array("192.168.1.1", "Unknown")
 );
 $i = count($iplist);
 $results = [];
