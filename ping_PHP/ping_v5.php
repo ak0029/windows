@@ -41,4 +41,5 @@ foreach($results as $item =>$k){
 }
 echo "</table>";
 echo "</font>";
+echo header("refresh: 4");// update result after 4sec
 ?>
