@@ -1,7 +1,7 @@
 <?php
 $iplist = array
 (	// use 2D array for ip & name
-	array("117.222.37.242","Pandharpur"),
+	array("8.8.8.8","Google"),
 	array("192.168.1.10","home")
 );
 $i = count($iplist);	
