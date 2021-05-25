@@ -1,2 +1,2 @@
 # windows
-Operations on Windows command Line(CMD)
+Operations on Windows command Line(CMD).
