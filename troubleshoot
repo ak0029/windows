@@ -25,3 +25,5 @@ address: 2404:6800:4009:820::2004
 >
 
 5. ping <IP add>  --> check n/w connectivity
+
+6. Netstat --> provides n/w statistics; detailed info about how our computer communicating with other computers also.
